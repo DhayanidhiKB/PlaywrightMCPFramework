@@ -1,0 +1,66 @@
+Open www.facebook.com
+Click on create account
+Try to write all permutations and combinations of Testcases include positive and negative scenarios
+create a testcase.MD file with all the information which can be used to create automation cases later
+
+
+
+Using the attached testcase.md file as the only reference, generate an automated test framework using Playwright with TypeScript, implementing the Page Object Model (POM).
+
+Scope:
+
+Automate only the first 10 test cases from testcase.md
+
+Each automated test must clearly map to its corresponding test case ID and description
+
+Technical Requirements:
+
+Use Playwright Test with TypeScript
+
+Follow Page Object Model (POM) with reusable page classes
+
+Use Playwright fixtures for setup and teardown
+
+Prefer getByRole, getByLabel, getByTestId selectors
+
+No hard-coded waits (waitForTimeout)
+
+Centralize selectors inside page objects
+
+Use strong assertions with expect
+
+Keep the framework scalable and maintainable
+
+Deliverables (Must Be Ready to Execute):
+
+Project folder structure
+
+package.json
+
+playwright.config.ts
+
+Page Object files for pages involved in the first 10 test cases
+
+Test spec files implementing the first 10 test cases
+
+Reusable utilities (base page, test data, helpers if applicable)
+
+README.md with:
+
+Prerequisites
+
+Installation steps
+
+Test execution commands
+
+Output Instructions:
+
+Output each file in a separate code block
+
+Clearly label each block with its relative file path
+
+Ensure the solution runs successfully with:
+
+npm install
+npx playwright install
+npx playwright test
